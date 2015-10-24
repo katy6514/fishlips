@@ -66,7 +66,7 @@ and (max-width : 1300px) {
 @media only screen
 and (max-width : 1030px) {
 #backgroundImage{
-  height: 200%;
+  height: 300%;
 }
 }
 
@@ -90,7 +90,7 @@ h1{font-size: 400%;}
 and (max-width : 801px)
 /*and (min-width : 601px)*/ {
 #backgroundImage{
-  height: 350%;
+  height: 200%;
 }
 h1{font-size: 400%;}
 
@@ -104,18 +104,29 @@ h1{font-size: 400%;}
 /* ------------------------------------- */
 
 
-@media only screen
+/*@media only screen
 and (max-width : 655px)
+/*and (min-width : 501px) {
+  .col {margin: 1%;}
+  .span_2_of_3 { width: 100%; }
+  .span_1_of_3 { width: 100%; padding:10px;}
+  h1{font-size: 300%;}
+  #backgroundImage{
+    height: 1650%;
+  }
+}*/
+
+@media only screen
+and (max-width : 601px)
 /*and (min-width : 501px)*/ {
   .col {margin: 1%;}
   .span_2_of_3 { width: 100%; }
   .span_1_of_3 { width: 100%; padding:10px;}
   h1{font-size: 300%;}
   #backgroundImage{
-    height: 1500%;
+    height: 650%;
   }
 }
-
 
 
 
@@ -129,6 +140,10 @@ and (max-width : 655px)
 
 @media only screen
 and (max-width: 450px){
+h1{font-size: 300%;}
+#backgroundImage{
+  height: 1000%;
+}
 }
 
 
