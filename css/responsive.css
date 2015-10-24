@@ -65,6 +65,9 @@ and (max-width : 1300px) {
 
 @media only screen
 and (max-width : 1030px) {
+#backgroundImage{
+  height: 200%;
+}
 }
 
 /* ------------------------------------- */
@@ -79,6 +82,15 @@ and (max-width : 900px)
 /*and (min-width : 601px)*/ {
 #backgroundImage{
   height: 230%;
+}
+h1{font-size: 400%;}
+
+}
+@media only screen
+and (max-width : 801px)
+/*and (min-width : 601px)*/ {
+#backgroundImage{
+  height: 350%;
 }
 h1{font-size: 400%;}
 
@@ -100,7 +112,7 @@ and (max-width : 655px)
   .span_1_of_3 { width: 100%; padding:10px;}
   h1{font-size: 300%;}
   #backgroundImage{
-    height: 680%;
+    height: 1500%;
   }
 }
 
