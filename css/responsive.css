@@ -77,6 +77,10 @@ and (max-width : 1030px) {
 @media only screen
 and (max-width : 900px)
 /*and (min-width : 601px)*/ {
+#backgroundImage{
+  height: 230%;
+}
+h1{font-size: 400%;}
 
 }
 
@@ -91,11 +95,13 @@ and (max-width : 900px)
 @media only screen
 and (max-width : 655px)
 /*and (min-width : 501px)*/ {
-  .col {
-    margin: 1%;
-  }
+  .col {margin: 1%;}
   .span_2_of_3 { width: 100%; }
-  .span_1_of_3 { width: 100%; }
+  .span_1_of_3 { width: 100%; padding:10px;}
+  h1{font-size: 300%;}
+  #backgroundImage{
+    height: 680%;
+  }
 }
 
 
@@ -111,7 +117,6 @@ and (max-width : 655px)
 
 @media only screen
 and (max-width: 450px){
-
 }
 
 
